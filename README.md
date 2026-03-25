@@ -18,7 +18,7 @@ Every request is tagged in logs and dashboard with which model handled it and wh
 ## Setup (5 commands)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/routewise
+git clone https://github.com/chethanisunique/routewise
 cd routewise
 pip install -r requirements.txt
 cp .env.example .env
