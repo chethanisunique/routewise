@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "prompt": "What is the capital of France?",
+    "ground_truth": "simple",
+    "category": "factual",
+    "notes": "Classic simple factual query"
+  },
+  {
+    "id": 2,
+    "prompt": "Who invented the telephone?",
+    "ground_truth": "simple",
+    "category": "factual",
+    "notes": "Single fact lookup"
+  },
+  {
+    "id": 3,
+    "prompt": "What does API stand for?",
+    "ground_truth": "simple",
+    "category": "definition",
+    "notes": "Simple acronym definition"
+  },
+  {
+    "id": 4,
+    "prompt": "What is the boiling point of water in celsius?",
+    "ground_truth": "simple",
+    "category": "factual",
+    "notes": "Single numeric fact"
+  },
+  {
+    "id": 5,
+    "prompt": "Define machine learning in one sentence.",
+    "ground_truth": "simple",
+    "category": "definition",
+    "notes": "Short definition request"
+  },
+  {
+    "id": 6,
+    "prompt": "What year was Python programming language created?",
+    "ground_truth": "simple",
+    "category": "factual",
+    "notes": "Single date fact"
+  },
+  {
+    "id": 7,
+    "prompt": "Translate good morning to French.",
+    "ground_truth": "simple",
+    "category": "translation",
+    "notes": "Simple translation"
+  },
+  {
+    "id": 8,
+    "prompt": "What is the largest planet in our solar system?",
+    "ground_truth": "simple",
+    "category": "factual",
+    "notes": "Simple factual"
+  },
+  {
+    "id": 9,
+    "prompt": "How many days are in a leap year?",
+    "ground_truth": "simple",
+    "category": "factual",
+    "notes": "Simple numeric fact"
+  },
+  {
+    "id": 10,
+    "prompt": "What is the square root of 256?",
+    "ground_truth": "simple",
+    "category": "math",
+    "notes": "Simple single-step math"
+  },
+  {
+    "id": 11,
+    "prompt": "Write a Python function that implements binary search on a sorted array and handles edge cases like empty arrays and single elements.",
+    "ground_truth": "complex",
+    "category": "code",
+    "notes": "Code generation with edge cases"
+  },
+  {
+    "id": 12,
+    "prompt": "Explain the difference between supervised learning and unsupervised learning with real-world examples for each.",
+    "ground_truth": "complex",
+    "category": "explanation",
+    "notes": "Multi-concept comparison with examples"
+  },
+  {
+    "id": 13,
+    "prompt": "Design a REST API architecture for a multi-tenant SaaS application. Include authentication, rate limiting, and database design considerations.",
+    "ground_truth": "complex",
+    "category": "design",
+    "notes": "Multi-component system design"
+  },
+  {
+    "id": 14,
+    "prompt": "Analyze the trade-offs between using microservices vs monolithic architecture for a startup with a small team.",
+    "ground_truth": "complex",
+    "category": "analysis",
+    "notes": "Trade-off analysis requiring reasoning"
+  },
+  {
+    "id": 15,
+    "prompt": "Implement a thread-safe LRU cache in Python with O(1) get and put operations. Include explanation of your approach.",
+    "ground_truth": "complex",
+    "category": "code",
+    "notes": "Complex algorithm implementation"
+  },
+  {
+    "id": 16,
+    "prompt": "How would you architect a real-time notification system that can handle 1 million concurrent users?",
+    "ground_truth": "complex",
+    "category": "design",
+    "notes": "Large scale system design"
+  },
+  {
+    "id": 17,
+    "prompt": "Compare gradient descent, Adam, and RMSprop optimizers. When should you use each and why?",
+    "ground_truth": "complex",
+    "category": "analysis",
+    "notes": "Technical comparison requiring deep knowledge"
+  },
+  {
+    "id": 18,
+    "prompt": "Debug this recursive function and explain why it causes a stack overflow: def factorial(n): return n * factorial(n-1)",
+    "ground_truth": "complex",
+    "category": "debugging",
+    "notes": "Code debugging + explanation"
+  },
+  {
+    "id": 19,
+    "prompt": "Write comprehensive unit tests for a payment processing module. Include edge cases for failed payments, duplicate transactions, and currency conversion.",
+    "ground_truth": "complex",
+    "category": "code",
+    "notes": "Complex test writing with multiple edge cases"
+  },
+  {
+    "id": 20,
+    "prompt": "Explain how transformer self-attention works step by step, including the role of Q, K, V matrices and why it is better than RNN for sequence modeling.",
+    "ground_truth": "complex",
+    "category": "explanation",
+    "notes": "Deep technical explanation requiring multi-step reasoning"
+  }
+]
